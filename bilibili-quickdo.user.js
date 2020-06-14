@@ -260,7 +260,7 @@
                     options: {
                         danmuColor: { text: '统一弹幕颜色', status: OFF, fn: 'initDanmuStyle' },
                         danmuMask: { text: '关闭弹幕蒙版', status: OFF, fn: 'danmuMask'},
-                        danmuOFF: { text: '自动关闭弹幕', status: OFF },
+                        danmuOFF: { text: '自动关闭弹幕', status: ON },
                         bangumiDanmuOFF: { text: '番剧自动关弹幕', status: OFF },
                         danmuTopOFF: { text: '自动关闭顶部弹幕', status: OFF },
                         danmuBottomOFF: { text: '自动关闭底部弹幕', status: OFF },

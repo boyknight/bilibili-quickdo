@@ -274,7 +274,7 @@
                         jump: { text: '自动转跳', status: ON, tips: '跳转另一集无效, 配合跳转快捷键用'},
                         lightOff: { text: '自动关灯', status: OFF },
                         fullscreen: { text: '自动全屏', status: OFF, ban:['webFullscreen', 'widescreen'], tips: '浏览器限制不能真全屏' },
-                        webFullscreen: { text: '自动网页全屏', status: ON, ban:['fullscreen', 'widescreen'] },
+                        webFullscreen: { text: '自动网页全屏', status: OFF, ban:['fullscreen', 'widescreen'] },
                         widescreen: { text: '自动宽屏', status: OFF, ban:['webFullscreen', 'fullscreen'] },
                         highQuality: { text: '自动最高画质', status: OFF, ban:['vipHighQuality'] },
                         vipHighQuality: { text: '自动最高画质(大会员使用)', status: OFF, ban:['highQuality'] },
